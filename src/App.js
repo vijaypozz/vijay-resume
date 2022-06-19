@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Profile from "./Components/Home/Profile";
+import React from "react";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <hl> hello vijay</hl>
-      </header>
+      <Profile />
+      <Footer/>
     </div>
   );
 }
